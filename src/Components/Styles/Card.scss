@@ -1,0 +1,28 @@
+@import '../../global.scss';
+
+.Card{
+    border: red 1px solid;
+    display: block;
+    height: 80vh;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: $light;
+    background-image: url('../../../public/images/warm-bg.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    #inputText{
+        background-color: rgb(219, 219, 219);
+        color: black;
+        display: block;
+        height: 2.5rem;
+        width: 90%;
+        border: none;
+        font-size: 1.7rem;
+        text-align: center;
+        // border-radius: 1rem;
+        margin: 1rem auto;
+        &:active{
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}
