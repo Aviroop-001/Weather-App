@@ -17,12 +17,12 @@ code {
     monospace;
 }
 .App{
-  background-image: url('../public//images/cold-bg.jpg');
+  background-image: url('../public/images/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
   transition: all 1s ease;
   &.warm{
-    background-image: url('../public//images/warm-bg.jpg');
+    background-image: url('../public/images/warm-bg.jpg');
   }
   main{
     height: 100vh;
