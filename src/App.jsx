@@ -1,5 +1,4 @@
-// import Header from "./Components/Scripts/Header";
-// import Card from "./Components/Scripts/Card";
+
 import React, { useState } from "react";
 
 const api ={
