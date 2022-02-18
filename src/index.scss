@@ -21,9 +21,6 @@ code {
   background-size: cover;
   background-position: bottom;
   transition: all 1s ease;
-  &.warm{
-    background-image: url('../public/images/warm-bg.jpg');
-  }
   main{
     height: 100vh;
     background-image: linear-gradient(rgb(0, 0, 0,0.1),rgb(0, 0, 0,0.8));
@@ -95,4 +92,7 @@ code {
       }
     }
   }
+}
+.warm{
+  background-image: url('../public/images/warm-bg.jpg');
 }
