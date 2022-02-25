@@ -17,7 +17,7 @@ function App() {
       .then(result =>{
         setcity('');
         setweather(result);
-        console.log(result);
+        // console.log(result);
       });
     }
   }
